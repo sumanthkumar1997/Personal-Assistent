@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.assistent.HomeActivity"
+    android:background="@drawable/background1">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_marginLeft="55sp"
+        android:layout_marginBottom="220sp"
+        android:layout_gravity="center"
+        android:text="Personal Assistent"
+        android:textSize="30sp"
+        android:textColor="@color/gold"/>
+
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="130sp"
+        android:text="Add reminder"
+        android:id="@+id/addreminder"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="160sp"
+        android:layout_marginLeft="130sp"
+        android:text="view  "
+        android:id="@+id/view"
+
+        />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="220sp"
+        android:layout_marginLeft="130sp"
+        android:text="EDIT  "
+        android:id="@+id/edit"
+
+        />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="280sp"
+        android:layout_marginLeft="130sp"
+        android:text="DELETE  "
+        android:id="@+id/delete"
+
+        />
+
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:id="@+id/exit"
+        android:layout_marginTop="340sp"
+        android:layout_marginLeft="130sp"
+        android:text="exit "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(This app will help you to keep track of day to day activites)"
+        android:layout_marginTop="470dp"
+        android:textColor="@color/silver"
+        android:layout_marginLeft="30sp"/>
+
+
+
+</RelativeLayout>
