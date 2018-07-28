@@ -60,7 +60,7 @@ public class ViewReminders extends AppCompatActivity {
     }
 
     private void populateListview(int a) {
-        Log.d(TAG, "populateListview:Displaying data in list ViewReminders ");
+        Log.d(TAG, "populateListview:Displaying data in list ViewReminders");
         Cursor data = mDatabaseHelper.getData(a);
 
         ArrayList<Todo> listData = new ArrayList<>();
